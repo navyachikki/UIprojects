@@ -1,0 +1,145 @@
+body{
+    background-image: url(https://m.media-amazon.com/images/I/71V21L1U9CL.jpg);
+}
+h1 { 
+    color: rgb(255, 255, 255); 
+    margin-bottom: 15px; 
+} 
+p { 
+    margin-bottom: 10px; 
+} 
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.row { 
+    display: flex; 
+} 
+.cell { 
+    border: 2px solid; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 33px; 
+    text-align: center; 
+    cursor: pointer; 
+    background-color: rgba(0, 0, 0, 0.763);
+    color: rgb(255, 255, 255);
+}   
+.cell:active { 
+    background-color: rgb(0, 0, 0);
+    
+} 
+/* 3*3 Grid */
+#b1{ 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b2 { 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b3 { 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b4 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+      
+#b5 { 
+    border: 1px solid gray; 
+} 
+  
+#b6 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b7 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b8 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b9 { 
+    border-top: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+/* Reset Button */
+#but { 
+    
+    width: 120px; 
+    height: 50px; 
+    margin-left: auto; 
+    border-radius: 8px; 
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0); 
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.321);
+    transition: box-shadow 0.15s;
+    color: rgb(255, 255, 255); 
+    font-size: 20px; 
+    cursor: pointer; 
+} 
+#but.active {
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: none;
+}
+  
+/* Player turn space */
+#print { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255); 
+    font-size: 35px; 
+    font-weight: bold;
+    margin-top: 80px;
+} 
+  
+/* Main Container */
+#main { 
+    text-align: center; 
+} 
+  
+/* Game Instruction Text */
+#ins { 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255); 
+    font-size: 17px;
+    
+}
+
+/* .shadow {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.15s;
+  border: none;
+
+}
+.shadow:active {
+  margin-top: 2px;
+  margin-left: 2px;
+  box-shadow: none;
+} */
